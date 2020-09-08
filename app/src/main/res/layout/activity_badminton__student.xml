@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_1"
+    tools:context=".Badminton_Student"
+    android:id="@+id/activty_badminton">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="32dp"
+            android:text="Badminton"
+            android:textColor="@color/Black"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="103dp"
+            android:layout_height="165dp"
+            android:layout_marginStart="244dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/picture2" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="203dp"
+            android:layout_height="237dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="96dp"
+            android:text="What are the rules to play badminton?
+A match consists of the best of 3 games of 21 points. Every time there is a serve –
+there is a point scored. The side winning a rally adds a point to its score.
+in a profassional match, when a player reached 11 point there will be interval(breaks)
+so that thier coaches can talk to them on what to do next to win the game"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="108dp"
+            android:layout_height="207dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="76dp"
+            android:text="The rules of playing
+Singles is that in the court the inner line
+at the side is as for the
+back court, the last is in different from the side line"
+            android:textColor="@color/Black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="8dp"
+            android:text="Side Of The Court"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="238dp"
+            android:layout_height="111dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/textView27"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView29"
+            app:srcCompat="@drawable/court" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="240dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:text="there is a new serving rules which is you have to serve below 1.15cm if any higher then that is a fault."
+            android:textColor="@color/Black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="321dp"
+            android:layout_height="88dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:text="In badminton there are Singles, doubles, and mixed doubles. You need to have a minimum of 2 people
+and a Maximum of 4 players if you want to play a match."
+            android:textColor="@color/Black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+        <VideoView
+            android:id="@+id/v_badminton"
+            android:layout_width="328dp"
+            android:layout_height="225dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+        <TextView
+            android:id="@+id/textView98"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="Here is a video you can understand more about the rules"
+            android:textColor="@color/Black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView39" />
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

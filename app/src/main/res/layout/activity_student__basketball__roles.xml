@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student_Basketball_Roles">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView162"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Basketball Roles and Positions"
+            android:textColor="@color/Black"
+            android:textSize="40sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="0dp"
+            android:layout_height="355dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView162"
+            android:src="@drawable/basketballroles" />
+
+        <TextView
+            android:id="@+id/textView163"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:lineSpacingExtra="8dp"
+            android:text="There are five players per team in a basketball game and each player plays a specific position on court. \n
+Each position can be thought of as a role, although these roles can be a hybrid when each player is required to play two or more positions at one time. This is due to the nature of the sport where players move around the court and play flexibly, doing what is needed in a given situation. \n
+Here are the five basic positions in basketball."
+            android:textColor="@color/Black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView26" />
+
+        <TextView
+            android:id="@+id/textView164"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:text="1. Centre"
+            android:textColor="@color/Black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView163" />
+
+        <TextView
+            android:id="@+id/textView165"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:lineSpacingExtra="8dp"
+            android:text="The centre is generally the tallest player who is positioned near the basket as he must be able to get up as high as possible for rebounds. He is also required to be more physically domineering with more physical strength and overall athleticism. \n
+Offensive -- The centre's goal is to get open for a pass and to shoot. They are required to block defenders, and to open other players up for driving to the basket for a goal. Centres are expected to get some offensive rebounds and put-backs. \n
+The centre should be good at making quick jump shots, hook shots, and using the backboard on his shots. \n
+Defensive -- On defense, the centre's main responsibility is to keep opponents from shooting by blocking shots and passes in the key area. They also are expected to get more rebounds because they're taller."
+            android:textColor="@color/Black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView164" />
+
+        <TextView
+            android:id="@+id/textView166"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="2. Power Foward"
+            android:textColor="@color/Black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView165" />
+
+        <TextView
+            android:id="@+id/textView167"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:lineSpacingExtra="8dp"
+            android:text="The power forwards are usually the next tallest players in the team, who are closest to the centre in physical attributes and playing style, but with more speed. A forward may play under the hoop or are expected to operate in the wings and corner areas. \n
+They must be strong and comfortable with a lot of physical play and must be an effective rebounder and effective inside shooter like the centre. The power forward is also expected to shoot from  further distances than the centre."
+            android:textColor="@color/Black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView166" />
+
+        <TextView
+            android:id="@+id/textView168"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="3. Small Foward"
+            android:textColor="@color/Black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView167"/>
+
+        <TextView
+            android:id="@+id/textView169"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/Black"
+            android:lineSpacingExtra="8dp"
+            android:text="The small forward is usually the shorter of the two forwards on the team. However, the small forward must have enough height and ability to play inside, and on top of that, play like the centres and power forwards, but also be able to guard. \n
+Small forwards are also the second or third best shooters from distance of the five positions as they also play defensive roles."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView168"/>
+
+        <TextView
+            android:id="@+id/textView170"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="4. Shooting Guard"
+            android:textSize="20sp"
+            android:textColor="@color/Black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView169"/>
+
+        <TextView
+            android:id="@+id/textView171"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/Black"
+            android:lineSpacingExtra="8dp"
+            android:text="The shooting guard is potentially the shortest player in the team. However, he has to be good at dribbling fast, passing and having court vision by seeing the court. He is responsible for bringing the ball down the court and setting up offensive plays. \n
+The shooting guard is also the player who takes the most shots. He needs to be an accurate shooter from three-point range. \n
+The shooting guard is potentially the shortest player in the team. However, he has to be good at dribbling fast, passing and having court vision by seeing the court. He is responsible for bringing the ball down the court and setting up offensive plays. In terms of height, shooting guards are taller than point guards."
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView170"/>
+
+        <TextView
+            android:id="@+id/textView172"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/Black"
+            android:textSize="20sp"
+            android:text="5. Point Guard"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView171" />
+
+        <TextView
+            android:id="@+id/textView173"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/Black"
+            android:lineSpacingExtra="8dp"
+            android:text="The point guard needs to be the best ball handler, dribbler and passer as he handles the ball the most out of all the players on the team. He needs to bring the ball down the court and initiate offensive plays. \n
+Point guards can also be the shortest player on the team as they use their intelligence and court vision to coordinate all his teammates on offense. \n
+Point guards need to have a good long distance shooting, though it's not quite as crucial as for shooting guards. However, some point guards take as many shots as shooting guards."
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView172"/>
+
+        <TextView
+            android:id="@+id/textView174"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:text="Here's a video to help you understand better"
+            android:textColor="@color/Black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView173" />
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/youTube_basketballRoles"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView174" />
+
+        <Button
+            android:id="@+id/btn_basketballRoles_Play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="Play"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/youTube_basketballRoles" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</ScrollView>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student_IPPTMenu"
+    android:background="@drawable/back5">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview_StudentIPPTCalculator"
+        android:layout_width="140dp"
+        android:layout_height="127dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="412dp"
+        android:onClick="StudentIPPTCalculator"
+        app:cardBackgroundColor="@color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cardviewbackground">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="81dp"
+                android:src="@drawable/ipptcalculatorlogo" />
+
+            <TextView
+                android:id="@+id/textView118"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:text="IPPT Calculator"
+                android:textColor="@color/Black"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview_Pushups"
+        android:layout_width="140dp"
+        android:layout_height="127dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="52dp"
+        android:onClick="StudentPushups"
+        app:cardBackgroundColor="@color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.017"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cardviewbackground">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pushupimage2" />
+
+            <TextView
+                android:id="@+id/textView117"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:text="Push-up"
+                android:textAlignment="center"
+                android:textColor="@color/Black"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview_situps"
+        android:layout_width="140dp"
+        android:layout_height="127dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="236dp"
+        android:onClick="StudentSitups"
+        app:cardBackgroundColor="@color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cardview_2.4km"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cardviewbackground">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="102dp"
+                android:src="@drawable/situpslogo" />
+
+            <TextView
+                android:id="@+id/textView116"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:text="Sit-up"
+                android:textAlignment="center"
+                android:textColor="@color/Black"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview_2.4km"
+        android:layout_width="140dp"
+        android:layout_height="127dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="236dp"
+        android:onClick="StudentRunning"
+        app:cardBackgroundColor="@color/transparent"
+        app:layout_constraintEnd_toStartOf="@+id/cardview_situps"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cardviewbackground">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="101dp"
+                android:src="@drawable/runninglogo" />
+
+            <TextView
+                android:id="@+id/textView115"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:text="2.4km Run"
+                android:textAlignment="center"
+                android:textColor="@color/Black"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

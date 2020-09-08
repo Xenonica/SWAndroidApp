@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.joshu.fyp">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/bas"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/bas"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".Homepage"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TeacherLogin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminLogin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TeacherContent"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IPPTCalculator"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".BMI"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".UserInfoData"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AttendanceMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SubmitAttList"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MainPageStudent"
+            android:label="@string/title_activity_main_page_student"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main_Page_For_Student"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Badminton_Student"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Student_Basketball_Menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Volleyball_student"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Netball_student"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Student_Menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ViewAttList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IPPTContent"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ViewIPPT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PostActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Student_ippt"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Student_NewsUpdatePost"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Student_Frisbee" />
+        <activity android:name=".table_tennis" />
+        <activity android:name=".captain_ball" />
+        <activity android:name=".Student_Swimming_Menu" />
+        <activity android:name=".SelectAgeGroup" />
+        <activity android:name=".Student_IPPTMenu" />
+        <activity android:name=".Student_IPPT_Pushups" />
+        <activity android:name=".Student_IPPT_Situps" />
+        <activity android:name=".Student_IPPT_Running" />
+        <activity android:name=".SportsFacilities" />
+        <activity android:name=".SNWLecturers" />
+        <activity android:name=".UpdateStudentDetails" />
+        <activity android:name=".UpdateStudentDetails_selectClass" />
+        <activity android:name=".StudentDetailsMenu" />
+        <activity android:name=".Student_Basketball_Rules" />
+        <activity android:name=".Student_Basketball_Skills" />
+        <activity android:name=".Student_Basketball_Roles" />
+        <activity android:name=".Student_Frisbee_Menu" />
+        <activity android:name=".Student_Frisbee_Techniques" />
+        <activity android:name=".Student_Swimming_Strokes" />
+        <activity android:name=".LecturerDetails" />
+        <activity android:name=".Student_IPPT_selectAge" />
+        <activity android:name=".Student_Netball_Rules" />
+        <activity android:name=".Student_Netball_Position" />
+        <activity android:name=".ChangePassword" />
+        <activity android:name=".AddStudents" />
+        <activity android:name=".Registeration"></activity>
+    </application>
+
+</manifest>

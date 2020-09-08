@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_basketball_student"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back5"
+    tools:context=".Student_Basketball_Menu">
+
+
+    <Button
+        android:id="@+id/btn_basketball_Roles"
+        android:layout_width="200dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/borderbutton_black"
+        android:onClick="basketballRoles"
+        android:text="Roles and Position"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_basketball_Skills" />
+
+    <Button
+        android:id="@+id/btn_basketball_Skills"
+        android:layout_width="200dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/borderbutton_black"
+        android:onClick="basketballSkills"
+        android:text="Skills"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_basketball_Rules" />
+
+    <Button
+        android:id="@+id/btn_basketball_Rules"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/borderbutton_black"
+        android:onClick="basketballRules"
+        android:text="Rules"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

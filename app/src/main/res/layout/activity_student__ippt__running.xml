@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Student_IPPT_Running"
+    android:id="@+id/activity_student_ippt_running">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="2.4KM"
+            android:textColor="@color/Black"
+            android:textSize="40sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="88dp"
+            android:src="@drawable/runningimage1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView129"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            android:text="Here's a video of 2.4km"
+            android:textColor="@color/Black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView21" />
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/youTube_running"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView129" />
+
+        <Button
+            android:id="@+id/btn_runningplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Play"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/youTube_running" />
+
+        <TextView
+            android:id="@+id/textView134"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            android:text="Tips"
+            android:textColor="@color/Black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.094"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_runningplay" />
+
+        <TextView
+            android:id="@+id/textView135"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:lineSpacingExtra="8dp"
+            android:text="1. WORK ON YOUR ENDURANCE \n\n
+If you find that you are struggling to maintain your speed for the 2.4km run, you should first build up your endurance first, with slow, steady jogs – until you find that you can comfortably run the 2.4km distance in about 12 minutes. That pace would be roughly equivalent to just less than six minutes per kilometre.
+
+For example, if you take part in a 10km race and are unable to maintain a consistent running speed throughout the whole 10km, your endurance may be lacking and this may need working on.
+
+Once you find that this is no longer a problem then you are ready to do other types of training."
+            android:textColor="@color/Black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView134" />
+
+        <TextView
+            android:id="@+id/textView136"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:lineSpacingExtra="8dp"
+            android:text="2. DO INTERVAL TRAINING \n\n
+While endurance running may help to build up a good fitness base, they do not help at all with speed.
+
+So, once you are able to run, what you should do is to have interval training – to improve your speed and ace that 2.4km run. Intervals are essentially short bursts of all-out running at your maximum capacity, with very short breaks of about 30 to 60 seconds in between each one. If you do interval training, you will find that you will be more than capable of sustaining your goal pace for the entire 2.4km and your timings will improve drastically.
+
+However, when you begin an interval-training regime, do not rush into it. As this is a very demanding type of training, do remember to take it slowly – and listen to your body at all times."
+            android:textColor="@color/Black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView135" />
+
+        <TextView
+            android:id="@+id/textView138"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:lineSpacingExtra="8dp"
+            android:text="3. START THE 2.4KM RUN AS FAST AS POSSIBLE
+While it is a good idea to start slowly when you are taking part in long endurance events such as 21km and 42km races, this is not a good practice for your 2.4km IPPT run. That’s because 2.4km is such a short distance, and by the time your body is warmed up, you would have lost a lot of time.
+
+Instead, the trick is to go all out right from the beginning and start as fast as you possibly can – and as a result, you’ll find that you can clock better 2.4km timings. Instead, you should warm up before – and not during – the 2.4km run. Types of warm-ups can include jumping jack and jogging on the spot."
+            android:textColor="@color/Black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView136" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:lineSpacingExtra="8dp"
+            android:text="4. MAINTAIN A GOOD RUNNING POSTURE THROUGHOUT THE 2.4KM RUN \n\n
+If you find that you are still getting tired easily when running, this may be because you have a poor running posture, and are not running efficiently as a result of this.
+
+To run efficiently, you generally need to stay relaxed and maintain an upright body posture. Do not slouch or tilt your head forward, because this wastes energy while running and restricts breathing.
+"
+            android:textColor="@color/Black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView138" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+</ScrollView>

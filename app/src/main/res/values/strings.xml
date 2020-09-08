@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Sport and  Wellness</string>
+    <string name="administrator">Administrator</string>>
+    <string name="teacher">Teacher</string>
+
+    <string-array name="age">
+        <item>Below 22</item>
+        <item>22-24</item>
+        <item>25-27</item>
+        <item>28-30</item>
+
+    </string-array>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="title_activity_main_page_student">MainPageStudent</string>
+
+    <string name="Skycourt"><u>BLOCK G LEVEL 4</u> \n \n \u2022 Basketball Courts \n \u2022 Multi-purpose Court \n \u2022 Street Soccer Courts \n \u2022 Fitness Corner</string>
+
+    <string name="SwimmingPool"><u>Block F Level 2</u> \n \n \u2022  Olympic Size Swimming pool \n \u2022  Training Pool</string>
+
+    <string name="PEiLab"><u>Block F Level 3</u> \n \n \u2022 Agility Ladder \n \u2022 iLights \n \u2022 Suspension Training</string>
+
+    <string name="frisbee_rules"> \u2022 The match is started by a “pull”, where one side throws-off to the other.\n\n \u2022 A player cannot run with the disc and must stop as soon as they receive it, although they may pivot on one leg (a la netball).\n\n \u2022 If a pass hits the floor, is intercepted or is caught out of bounds possession goes to the other side.\n\n \u2022 A player in possession has 10 seconds in which to pass the disc or they cede possession to the opposition.\n\n \u2022 The defender (marker) makes the count (stall count).\n\n \u2022 Ultimate is a non-contact sport and defenders may only stand within three meters of the disc-holder.\n\n \u2022 Substitutions are only allowed after a goal has been scored (and before the throw-off), to replace an injured player or after periods of play and not during a timeout.</string>
+
+    <string name="frisbee_backhand"><u>Backhand</u></string>
+
+    <string name="frisbee_forehand"><u>Forehand (Flick)</u></string>
+
+    <string name="frisbee_hammerthrow"><u>Hammer Throw</u></string>
+
+    <string name="frisbee_forehandthrow"><![CDATA[A flick is easy, but takes some practice and commitment. This is the most efficient throw in Ultimate because it uses the least amount of energy and can be thrown in milliseconds. Put 2 fingers (Pointer & middle) under the disc and your thumb on top. Throw as if you were trying to skip a flat rock on water. Keeping the disc parallel with the ground is really important. The key element to the flick throw is the spin you put on the disc. Do this by pulling your wrist as far back as it will go and snapping it forward while bringing your arm through the motion. The disc should wrap around and “fling” off your two fingers. I guarantee it will take a few hundred tries to perfect. It will be worth the time. We have an entire page dedicated to teaching beginners how to flick. Good for short, medium, and long range.]]></string>
+
+    <string name="swimming_butterfly">The butterfly stroke is one of the most difficult swim strokes to learn and master. The butterfly stroke is broke down into three main segments: \n\n \u2022 The Pull \n \u2022 The Push \n \u2022 The Recovery \n\n From the initial position, the arm movement starts very similarly to the breaststroke. In the beginning, the hands sink a little bit down with the palms facing outwards and slightly down at shoulder width, and then the hands move out to create a Y body shape. \n\n The pull part of the butterfly stroke is focused on body positioning and propulsion. The hands should be kept straight to make a paddle. Make a semicircle with the elbow higher than the hand and the hand pointing towards the center of the body and downward. Shoot your fingers downward and forward into the water to create the most propulsion. \n\n The push is created by pushing the palms of your hands back through the water underneath the body at the beginning and at the side of the body. The movement increases speed throughout the transition phase, of the pull and push. The speed at the end of the push is used to help with the recovery. \n\n The recovery is all about keeping your body in a straight line. Swing the arms sideways across the water surface to the front, with the elbows straight. The arms should be swung forward from the end of the underwater movement, the extension of the triceps in combination with the butterfly kick will allow the arm to be brought forwards relaxed yet quickly. The shoulders should be squeezed and shrugged together during the transition between the recovery and pull stages. It is important not to enter the water too early because this would generate extra resistance as the arms moved forward in the water against the swimming direction. However, during longer distances, this can\'t be avoided. \n\n The leg movement is similar to the leg movement in the front crawl, except the legs, move together in a dolphin kicking motion. The feet are kept together and pointing downwards, giving downwards thrust, moving up the feet and pressing down the head.</string>
+
+    <string name="netball_rules">Netball is a ball sport usually played by women comprising of two teams of seven players each. Games are played on a rectangular court divided into thirds with a raised goal at each end. Players’ movements are restricted on court as they are assigned \'positions\' within the team that define their role. \n\n <u>Goal Shooter</u> (GS): Works in and around the semi-circle with the GA to score goals \n\n <u>Goal Attack  (GA):</u> Works with GS to score goals \n\n <u>Wing Attack (WA): Flanks the offensive players giving them shooting opportunities</u> \n\n <u>Centre (C):</u> Links the defence and the attack \n\n <u>Wing Defence:</u> Prevents WA from passing and to look for interceptions Goal Defence: Intercepts the ball and prevent passes to the GA \n\n <u>Goal Keeper:</u> Prevents the GA/GS from scoring goals within the semi-circle and works with GD</string>
+
+    <string name="netball_rules1">The object of the game is for teams to pass a ball around and to shoot it into the goal ring to score goals. \n\n During play, a player with the ball can only take one step before passing it. She must also pass or shoot for goal within three seconds. \n\n However, goals can only be scored by the assigned shooting players. Netball games are divided into 15-minute quarters - 60 minutes long - at the end of which the team with the most goals scored wins. \n\n Only the Goal Attack and Goal Shooter are able to score goals directly inside of the semicircle. The umpire\'s whistle signals the goal is scored. \n\n It is the job of the Goal Defence and Goal Keeper to block the Goal Attack and Goal Shooter from shooting and they must be three feet or more away from the landing foot of the shooter. Or else, this is a violation called an obstruction. \n\n A “no goal” occurs if a ball passes through the hoop that has been thrown either outside the circle or by a player other than the two shooters. \n\n If a player completely misses a shot, the player may not catch it. It will be considered a “replay” if she does and a free pass will be awarded to the other team. \n\n A goal will also not be awarded if the ball is deflected off the Goal Keeper or Goal Defence and goes through the goal ring.</string>
+
+    <string name="netball_rules3">Obstruction of a player in possession of the ball. \n\n A player attempting to intercept or defend the ball must be at least 3 feet or 0.9 metres away from the player with the ball. This distance is measured from the landing foot of the player in possession of the ball. \n\n Thus any attempt at intercepting or defending the ball must be made at length, or the move will result in a penalty pass to be awarded for obstruction. \n\n Obstruction of a player not in possession of the ball. \n\n Using your hands to block a player off the ball is allowed as long as it is for the purpose of catching, deflecting or intercepting a pass, obtaining a rebound from an unsuccessful shot at goal, or signaling for a pass. \n\n An obstruction occurs if you mark a player with your arms out. \n\n This is because a player cannot: \n\n i) Move into the landing space of an opponent \n\n ii) Position so closely to an opponent contact is inevitable \n\n iii) Push, trip, hold or lean on an opponent resulting in physical contact \n\n iv) Knock or remove the ball from the possession of an opponent while she is holding it in her hands \n\n v) Or push the ball into the hands of an opponent</string>
+
+
+</resources>

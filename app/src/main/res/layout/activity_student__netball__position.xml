@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student_Netball_Position">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Netball Playing Positions"
+        android:textColor="@color/Black"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/netballcourt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView65" />
+
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:lineSpacingExtra="8dp"
+            android:text="There are 7 different playing positions in netball and each of them signify different areas of play. They are namely: \n\n1. Goal Shooter\n2. Goal Attack\n3. Wing Attack\n4. Centre\n5. Wing Defence\n6. Goal Defence\n7. Goal Keeper"
+            android:textColor="@color/Black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+        <TextView
+            android:id="@+id/textView67"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:textStyle="bold"
+            android:text="1. Goal Shooter (GS)"
+            android:textColor="@color/Black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView66" />
+
+        <TextView
+            android:id="@+id/textView68"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:lineSpacingExtra="8dp"
+            android:text="The main role of the Goal Shooter (GS) is to score, by shooting the ball into the hoop. This can only be done within the goal circle. The GS is not allowed to score a goal beyond the perimeters of the goal circle. The outcome of the game depends on the number of shots put in by the GS. \n\n Area of play: The opposing team’s goal third, including the goal circle. \n Common traits: The GS is usually among the taller players of the team, has steady hands and accurate shooting skills. She must also have quick reflexes to catch rebounds."
+            android:textColor="@color/Black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView67" />
+
+        <TextView
+            android:id="@+id/textView69"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:text="2. Goal Attack (GA)"
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView68" />
+
+        <TextView
+            android:id="@+id/textView70"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:lineSpacingExtra="8dp"
+            android:text="The Goal Attack (GA) is responsible for setting up offensive plays and scoring goals. She also feeds the ball to the GS to shoot. She works very closely with the GS, and it is not uncommon to see exceptional camaraderie between the duo. \n\n Area of play: The opposing team’s goal third, including the goal circle, and the centre third. \n Common traits: The GA is usually among the taller players on the team, has strong passing ability and accurate shooting skills. "
+            android:textColor="@color/Black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView69" />
+
+        <TextView
+            android:id="@+id/textView71"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:text="3. Wing Attack (WA)"
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView70" />
+
+        <TextView
+            android:id="@+id/textView72"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:lineSpacingExtra="8dp"
+            android:text="The Wing Attack (WA) is chiefly responsible for moving the ball down from the centre third to the goal third and for feeding the ball into the shooters’ hands, which includes both the GS and the GA. Their job is to create as many chances to score as possible. \n\n Area of play: The opposing team’s goal third, excluding the goal circle, and the centre third. \n Common traits: The WA is usually the fastest player on court, has solid passing skills, and excellent footwork and ball handling skills."
+            android:textColor="@color/Black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView71" />
+
+        <TextView
+            android:id="@+id/textView73"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:textColor="@color/Black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="4. Centre (C)"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView72"/>
+
+        <TextView
+            android:id="@+id/textView74"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:lineSpacingExtra="8dp"
+            android:textColor="@color/Black"
+            android:text="The Centre starts and restarts the game from the centre circle each time a goal is scored. She dictates the pace of her team’s play, creates space on court and is depended upon for both attacking and defending. She is required to take the offensive by shifting the ball from the defensive area to the attacking side, and also switches to take a defensive stance when required. She is also required to feed the ball to the shooters in the goal circle. \n\n Area of play: Anywhere except the goal circles of both teams. \n Common traits: She has an exceptional fitness level, strong passing skills, and the ability to analyse and change her team’s play if necessary."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView73"/>
+
+        <TextView
+            android:id="@+id/textView75"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:textSize="20sp"
+            android:textColor="@color/Black"
+            android:textStyle="bold"
+            android:text="5. Wing Defence (WA)"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView74"/>
+
+        <TextView
+            android:id="@+id/textView76"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:lineSpacingExtra="8dp"
+            android:textColor="@color/Black"
+            android:text="The Wing Defence (WD) is always on the defensive, unless there’s a turnover and she has to bring the ball down to her attacking side. She is responsible for defending the opposing team’s players, mainly the WA, and for stopping the ball from reaching the goal circle. She is to intercept at any possible chance. \n\n Area of play: The team’s goal third, excluding the goal circle, and the centre third. \n Common traits: The WD is consistently focused and swift to react."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView75"/>
+
+        <TextView
+            android:id="@+id/textView77"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:textColor="@color/Black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="6. Goal Defence (GD)"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView76"/>
+
+        <TextView
+            android:id="@+id/textView78"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:lineSpacingExtra="8dp"
+            android:text="The chief role of the Goal Defence (GD) is to defend the ball from reaching the opposing shooters in a spot where they are comfortable to shoot. They must always be on the look out for chances to intercept the ball and achieve turnovers. They also keep a close look on the opposing team’s GA. \n\n Area of play: The team’s goal third, including the goal circle and the centre third. \n Common traits: The GD is usually among the taller players of the team. She must be focused, have quick footwork and be quick to react to catch rebounds. They must also have good anticipation skills so that they can counter their opponent’s set-up and prevent them from scoring."
+            android:textColor="@color/Black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView77" />
+
+        <TextView
+            android:id="@+id/textView79"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:textColor="@color/Black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="7. Goal Keeper (GK)"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView78"/>
+
+        <TextView
+            android:id="@+id/textView80"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:lineSpacingExtra="8dp"
+            android:textColor="@color/Black"
+            android:text="The Goal Keeper’s (GK) primary function is to guard the goal circle, defend the opposing shooters and prevent them from scoring goals. She is also responsible for taking throw-ins at the base line. She can be considered as the last line of defence. The GK usually has strong camaraderie with the GD and they work together to defend the opposing shooters, intercept balls and catch rebounds. \n\nArea of play: The team’s goal third, including the goal circle. \n Common traits: The GK is usually among the taller players of the team and has to be extremely alert of the game play in order to intercept and turn the game around."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView79"/>
+
+        <TextView
+            android:id="@+id/textView81"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:textStyle="bold"
+            android:text="Here's a video for more about positions in netball"
+            android:textColor="@color/Black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView80" />
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/youTube_netballPosition"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView81"/>
+
+        <Button
+            android:id="@+id/btn_NetballPosition_Play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="Play"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/youTube_netballPosition" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".captain_ball"
+    android:background="@drawable/gradient_1"
+    android:id="@+id/activity_captain_ball">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:focusable="true"
+        android:layout_height="wrap_content"
+        >
+
+    <TextView
+        android:id="@+id/textView88"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:text="Captain Ball"
+        android:textSize="30dp"
+        android:textColor="@color/Black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView100"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="How to play?"
+            android:textColor="@color/Black"
+            android:textSize="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView88" />
+
+        <TextView
+            android:id="@+id/textView101"
+            android:layout_width="292dp"
+            android:layout_height="310dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:text="You can play the game with five, six or up to 10 players on each team.
+Choose one person as the goal catcher and have him stand on the chair or pedestal
+(or on the floor in the circle if you wish). You will have two shooters who will stand
+in the circles closest to the center line. The remaining players can move freely through
+the field outside of the circles on the other end of the court to prevent the other team
+from scoring. Each team passes the ball from one player to another to get it to one of the
+shooters, who then attempts to pass it to the goal catcher to score a point.
+Free roaming fielders from the opposite team attempt to block the passes and
+intercept the ball. They then pass it between members to their own shooters to try to score."
+            android:textColor="@color/Black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView100" />
+
+        <TextView
+            android:id="@+id/textView102"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:text="How to score?"
+            android:textColor="@color/Black"
+            android:textSize="27dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView101" />
+
+        <TextView
+            android:id="@+id/textView103"
+            android:layout_width="296dp"
+            android:layout_height="87dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:text="A goal catcher must hold the ball for a
+full three seconds to receive a score for his team. No one
+can knock it out of his hands during this time."
+            android:textColor="@color/Black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView102" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="109dp"
+            android:layout_height="111dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cap" />
+
+        <TextView
+            android:id="@+id/textView104"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:text="Here is a video you can understand more about the game"
+            android:textColor="@color/Black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView103" />
+
+        <VideoView
+            android:id="@+id/v_cap"
+            android:layout_width="0dp"
+            android:layout_height="239dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView104" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

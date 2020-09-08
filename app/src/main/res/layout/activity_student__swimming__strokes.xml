@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student_Swimming_Strokes">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView99"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Swim Strokes"
+            android:textColor="@color/Black"
+            android:textSize="40sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView106"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:text="Treading Water"
+            android:textColor="@color/Black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView99" />
+
+        <TextView
+            android:id="@+id/textView107"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:lineSpacingExtra="8dp"
+            android:text="   Treading water is not necessarily a swim stroke, but it should be mastered before moving on to learning swim strokes. Treading water helps to keep swimmers afloat when stopping a swim stroke in deep water.  You can also use kickboards to help you tread water and learn swim strokes. \n
+   Treading water is the motion of your arms and legs moving at the same time but in an efficient method. Your right arm should push out and away from your body and in a clockwise motion pull back to the chest. Your left arm should be in sync and perform the same motion but in a counter-clockwise direction. Your back should be straight with legs bent, and your legs should be making the same clockwise and counter-clockwise movements."
+            android:textColor="@color/Black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView106" />
+
+        <TextView
+            android:id="@+id/textView108"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:text="Freestyle/Front Crawl Stroke"
+            android:textColor="@color/Black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView107" />
+
+        <TextView
+            android:id="@+id/textView109"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:lineSpacingExtra="8dp"
+            android:text="   The most common swimming stroke is the freestyle or front crawl stroke. It is the most natural to perform of all the different swim strokes and can be performed in a swimming pool or other bodies of water. The freestyle stroke allows you to swim straight on your stomach by kicking your legs and rotating your arms over your head. However, it is important to become comfortable with the breathing technique, as your face will stay submerged for a few strokes. \n
+   Body position is important to the freestyle swim. Your back, neck, and head should be relaxed and in line with each other in order to reduce any resistance. Reach forward with your right arm and extend it as far as you can. As you place your right palm into the water, your left hand should be in motion reaching up and forward. Your right arm will be pushing through the water as your left arm is stretched out and swinging above your head. \n
+   When rotating arms to reach forward, your body will rotate with the arm reaching out of the water. Your body will pivot with each stroke allowing you to push harder through the water and extend your arm further. \n
+   While you are rotating, it will feel natural to tilt your head and breathe. You don’t want to take a breath every stroke but find a comfortable pattern and breathe every four strokes or so. Your feet should be kicking in a fluttering manner or a slower smooth pattern."
+            android:textColor="@color/Black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView108" />
+
+        <TextView
+            android:id="@+id/textView110"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:text="Butterfly Stroke"
+            android:textColor="@color/Black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView109" />
+
+        <TextView
+            android:id="@+id/textView111"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:lineSpacingExtra="8dp"
+            android:text="@string/swimming_butterfly"
+            android:textColor="@color/Black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView110" />
+
+        <TextView
+            android:id="@+id/textView112"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:textSize="20sp"
+            android:textColor="@color/Black"
+            android:text="Breaststroke"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView111" />
+
+        <TextView
+            android:id="@+id/textView113"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:lineSpacingExtra="8dp"
+            android:textColor="@color/Black"
+            android:text="   After you know the arm movements for treading water, the breaststroke will come easily. This style of swimming allows you to propel yourself forward while keeping your head above the water. \n
+   For a fluid breaststroke, you should start in a prayer position with palms together and thumbs up. While keeping your hands together, push your arms forward away from your body. As you stretch your arms straight, release your hands and turn your palms out. Push your arms to your sides and back up to your chest in the starting prayer position. These motions should be done in one fluid action. \n
+   Your legs are equally important in swimming the breaststroke. Together with your arms, draw your knees up to your chest and kick your legs out to each side as wide as you can. Bring your legs together, straight back behind you and start the motion over again."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView112" />
+
+        <TextView
+            android:id="@+id/textView114"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:textSize="20sp"
+            android:textColor="@color/Black"
+            android:text="Backstroke"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView113"/>
+
+        <TextView
+            android:id="@+id/textView115"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/Black"
+            android:lineSpacingExtra="8dp"
+            android:text="   Swimming the backstroke is the same movements as the freestyle but you’re on your back! This is a very comfortable swim stroke and easy to learn. \n
+   Make sure your body is straight and inline, and your face looking up skyward. You want to be floating on your back in the water and extend your right arm above your head. Reach out as far as you can above and behind you. As your right arm enters the water, bend your elbow and draw your arm under, pushing through the water, and back to the surface. Your left arm will follow this same motion but at the opposite time: when your right arm is submerged, your left arm is extended above you. Your legs should be helping you propel yourself with your feet butterfly kicking."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView114"/>
+
+        <TextView
+            android:id="@+id/textView116"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:textSize="20dp"
+            android:textColor="@color/Black"
+            android:text="Here's a video of the stroke"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView115"/>
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/youTube_swimmingStroke"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView116"/>
+
+        <Button
+            android:id="@+id/btn_swimmingTreading_Play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginTop="24dp"
+            android:text="Play Treading"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/youTube_swimmingStroke"/>
+
+        <Button
+            android:id="@+id/btn_swimmingFreestyle_Play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:text="Play Freestyle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/youTube_swimmingStroke"/>
+
+        <Button
+            android:id="@+id/btn_swimmingButterfly_Play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginTop="16dp"
+            android:text="Play Butterfly"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_swimmingTreading_Play" />
+
+        <Button
+            android:id="@+id/btn_swimmingBreast_Play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:text="Play Breaststroke"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_swimmingFreestyle_Play" />
+
+        <Button
+            android:id="@+id/btn_swimmingBack_Play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Play Backstroke"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_swimmingBreast_Play" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
